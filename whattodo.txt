@@ -1,0 +1,2 @@
+what to do:
+1. move ifelse to external .js file
