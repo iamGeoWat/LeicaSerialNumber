@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="switchcase.js"></script>
+		<script>
+			function do() {
+				var func = apply;
+				func(document.getElementById(SN).innerHTML);
+			};
+		</script>
+	</head>
+	<body>
+		<label>Serial Number: </label> <input type="text" id="SN">
+		<br>
+		<label>Type: </label><label id="type"></label>
+		<br>
+		<label>Year of Production: </label><label id="year"></label>
+		<br>
+		<label>Amount of Production: </label><label id="pa"></label>
+		<br>
+		<button onclick="do()">Submit</button>
+	</body>
+</html>

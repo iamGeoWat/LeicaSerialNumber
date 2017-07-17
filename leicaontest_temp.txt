@@ -1,4 +1,4 @@
-﻿case 100<=SN && SN<=122: {type="0-series";year="1923";pa="23";}
+case 100<=SN && SN<=122: {type="0-series";year="1923";pa="23";}
 case 123<=SN && SN<=130: {type="Prototyp";year="1924";pa="8";}
 case 131<=SN && SN<=1000: {type="I";year="1925";pa="870";}
 case 1001<=SN && SN<=2445: {type="I";year="1926";pa="1445";}
@@ -889,14 +889,14 @@ case 354101<=SN && SN<=354200: {type="IIIa";year="1947";pa="100";}
 case 354201<=SN && SN<=354400: {type="II";year="1942-44";pa="200";}
 case 354401<=SN && SN<=355000: {type="IIIb";year="1946";pa="600";}
 case 355001<=SN && SN<=355650: {type="I";year="1947-48";pa="650";}
-case 355651<=SN && SN<=356500: {type="NummernNichtVergeben";year="850";pa="
+case 355651<=SN && SN<=356500: {type="NummernNichtVergeben";year="nodate";pa="850";}
 case 355651<=SN && SN<=356500: {type="Military";year="nodate";pa="850";}
 case 356501<=SN && SN<=356650: {type="IIIa";year="1947-48";pa="150";}
 case 356651<=SN && SN<=356700: {type="II";year="1947-48";pa="50";}
 case 356701<=SN && SN<=357200: {type="IIIa";year="1948-50";pa="500";}
-case 357201<=SN && SN<=358500: {type="NummernNichtVergeben";year="1300";pa="
+case 357201<=SN && SN<=358500: {type="NummernNichtVergeben";year="nodate";pa="1300";}
 case 358501<=SN && SN<=358650: {type="II";year="1948";pa="150";}
-case 358651<=SN && SN<=360000: {type="NummernNichtVergeben";year="1350";pa="
+case 358651<=SN && SN<=360000: {type="NummernNichtVergeben";year="nodate";pa="1350";}
 case 360001<=SN && SN<=360100: {type="IIId";year="1940-42";pa="100";}
 case 360101<=SN && SN<=367000: {type="IIIc";year="1940";pa="6900";}
 case 367001<=SN && SN<=367325: {type="IIIc";year="1941-44";pa="325";}
@@ -908,7 +908,7 @@ case 369001<=SN && SN<=369050: {type="IIIc";year="1941";pa="50";}
 case 369051<=SN && SN<=369450: {type="IIIc";year="1941";pa="400";}
 case 369451<=SN && SN<=390000: {type="IIIc";year="1941-42";pa="20550";}
 case 390001<=SN && SN<=397650: {type="IIIc";year="1943-46";pa="7650";}
-case 397651<=SN && SN<=399999: {type="NichtVergeben";year="2349";pa="
+case 397651<=SN && SN<=399999: {type="NichtVergeben";year="nodate";pa="2349";}
 case 400000<=SN && SN<=440000: {type="IIIc";year="1946-47";pa="40001";}
 case 440001<=SN && SN<=449999: {type="IIc";year="1948-51";pa="9999";}
 case 450000<=SN && SN<=450000: {type="IIIc";year="1949";pa="1";}
@@ -1020,7 +1020,7 @@ case 893001<=SN && SN<=894000: {type="M3";year="1957";pa="1000";}
 case 894001<=SN && SN<=894570: {type="M3ELC";year="1957";pa="570";}
 case 894571<=SN && SN<=898000: {type="M3";year="1957";pa="3430";}
 case 898001<=SN && SN<=903000: {type="M3";year="1957";pa="5000";}
-903001case 903300<=SN && SN<=M3ELC: {type="1957";year="300";pa="
+case 903001<=SN && SN<=903300: {type="M3ELC";year="1957";pa="300";}
 case 903301<=SN && SN<=907000: {type="IIIg";year="1957";pa="3700";}
 case 907001<=SN && SN<=910000: {type="Ig";year="1957";pa="3000";}
 case 910001<=SN && SN<=910500: {type="M3";year="1957";pa="500";}
@@ -1582,7 +1582,7 @@ case 2290501<=SN && SN<=2291500: {type="R8";year="1996";pa="1000";}
 case 2291501<=SN && SN<=2293500: {type="R8";year="1996";pa="2000";}
 case 2293501<=SN && SN<=2295000: {type="R8";year="1997";pa="1500";}
 case 2295001<=SN && SN<=2297000: {type="M6Schwz";year="1997";pa="2000";}
-case 2297001<=SN && SN<=2299000: {type="R81997";year="2000";pa="
+case 2297001<=SN && SN<=2299000: {type="R8";year="1997";pa="2000";}
 case 2300000<=SN && SN<=2300000: {type="M6forMuseum";year="1997";pa="1";}
 case 2300001<=SN && SN<=2300996: {type="M6";year="1997";pa="996";}
 case 2301001<=SN && SN<=2321000: {type="Mini3";year="1997";pa="20000";}
