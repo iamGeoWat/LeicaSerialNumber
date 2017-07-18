@@ -1,2 +1,4 @@
 what to do:
 1. move ifelse to external .js file
+2. make a better old-style webpage
+3. move .js file to server, use form to transmit data
